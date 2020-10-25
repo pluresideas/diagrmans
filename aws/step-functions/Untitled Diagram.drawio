@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T14:58:41.148Z" agent="5.0 (Macintosh)" version="13.8.2" etag="zOHYl9-Q1gkmF0RBQTTx" type="github"><diagram id="Zo7a0wYOq0kjhRz-C08P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-25T15:14:15.478Z" agent="5.0 (Macintosh)" etag="ZMc1MHJZc5QFj8Mkq6s1" version="13.8.2" type="github">
+  <diagram id="Zo7a0wYOq0kjhRz-C08P" name="Page-1">
+    <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NocTvvea4buMw_XpFRk8-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="370" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-2" value="NestJS client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="360" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-4" value="Amazon Cloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="60" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-5" value="localhost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-6" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NocTvvea4buMw_XpFRk8-2" target="NocTvvea4buMw_XpFRk8-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="480" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-7" value="API Gatweay" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="194" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-8" value="Step Function" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.step_functions;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="193.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="NocTvvea4buMw_XpFRk8-9" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="NocTvvea4buMw_XpFRk8-7" target="NocTvvea4buMw_XpFRk8-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="390" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
